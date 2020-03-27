@@ -1,17 +1,17 @@
-CREATE TABLE IF NOT EXISTS "commune" (
-"region_id" VARCHAR (3)  NULL,
-"province_id" VARCHAR (7)  NULL,
-"circle_id"  VARCHAR (15) NULL,
-"code"  VARCHAR (3) NULL,
-"id"  VARCHAR (20) NULL,
-"name"  VARCHAR (50) NULL,
-"name_ar"  VARCHAR (50) NULL,
-"is_municipal" INT NULL,
-"is_arrondissment" INT NULL,
-"is_centre" INT NULL
+CREATE TABLE IF NOT EXISTS COMMUNE (
+REGION_ID VARCHAR (3)  NULL,
+PROVINCE_ID VARCHAR (7)  NULL,
+CIRCLE_ID  VARCHAR (15) NULL,
+CODE  VARCHAR (3) NULL,
+ID  VARCHAR (20) NULL,
+NAME  VARCHAR (50) NULL,
+NAME_AR  VARCHAR (50) NULL,
+IS_MUNICIPAL INT NULL,
+IS_ARRONDISSMENT INT NULL,
+IS_CENTRE INT NULL
 );
 
-INSERT INTO commune VALUES
+INSERT INTO COMMUNE VALUES
 ('01.','01.051.','01.051.01.',01,'01.051.01.01.','Al Hoceima (Mun.)','الحسيمة',1,0,0),
 ('01.','01.051.','01.051.01.',03,'01.051.01.03.','Bni Bouayach (Mun.)','بني بوعياش',1,0,0),
 ('01.','01.051.','01.051.01.',05,'01.051.01.05.','Imzouren (Mun.)','إمزورن ',1,0,0),
